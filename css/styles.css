@@ -1,0 +1,13 @@
+#app {
+    width: 950px;
+}
+
+.currency-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.marketing-currency, .artist-currency, .lootboxTeam-currency {
+    width: 302px;
+    border: 1px solid black;
+}
