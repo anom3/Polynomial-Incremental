@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MobileMoney</title>
+</head>
+<body>
+    <div id="app">
+        <div class="currency-container">
+            <div class="marketing-currency">
+
+            </div>
+            <div class="artists-currency">
+                
+            </div>
+            <div class="lootboxTeam-currency">
+
+            </div>
+        </div>
+        <div class="producers-container">
+            <div class="marketing-generators">
+                <div class="generator marketing-generator" v-for="marketing in player.marketing">
+                    {{ marketing.cost }}
+                </div>
+            </div>
+            <div class="artist-generators">
+
+            </div>
+            <div class="lootboxTeam-generators">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/vue.js"></script>
+<script src="js/player.js"></script>
+<script src="js/index.js"></script>
+</html>
