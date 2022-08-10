@@ -1,8 +1,9 @@
 var player = {
     money: 10,
+    graphics: 0,
     marketing: [],
     artists: [],
-    lootboxes
+    lootboxes: []
 }
 
 var firstMarketing = {
