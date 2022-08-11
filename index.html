@@ -10,9 +10,9 @@
     <div id="app">
         <div class="currency-container">
             <div class="marketing-currency">
-
+                You have ${{ player.money }}
             </div>
-            <div class="artists-currency">
+            <div class="artist-currency">
                 
             </div>
             <div class="lootboxTeam-currency">
@@ -20,15 +20,15 @@
             </div>
         </div>
         <div class="producers-container">
-            <div class="marketing-generators">
+            <div class="generators-container">
                 <div class="generator marketing-generator" v-for="marketing in player.marketing">
                     {{ marketing.cost }}
                 </div>
             </div>
-            <div class="artist-generators">
+            <div class="generators-container">
 
             </div>
-            <div class="lootboxTeam-generators">
+            <div class="generators-container">
 
             </div>
         </div>
