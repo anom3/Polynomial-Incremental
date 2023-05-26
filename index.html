@@ -21,15 +21,19 @@
         </div>
         <div class="producers-container">
             <div class="generators-container">
-                <div class="generator marketing-generator" v-for="marketing in player.marketing">
-                    {{ marketing.cost }}
+                <div class="generator marketing-generator" v-for="(marketing, idx) in player.marketing">
+                    <h4>{{ marketing.name }}</h4>
+                    <span class="generator-amount">{{ marketing.amount }}</span>
+                    <span class="generator-multiplier">x{{ marketing.mult }}</span>
+                    <span class="generator-cost">Cost: ${{ marketing.cost }}</span>
+                    <button @click="buyMarketingGenerator(idx)">Buy 1</button>
                 </div>
             </div>
             <div class="generators-container">
 
             </div>
             <div class="generators-container">
-
+                
             </div>
         </div>
     </div>
