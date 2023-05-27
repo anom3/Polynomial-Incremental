@@ -1,8 +1,15 @@
-<script setup>
+<script>
+import AntiDim from './components/AntiDim.vue'
+
+export default {
+  components: {
+    AntiDim
+  }
+}
 </script>
 
 <template>
-  <AntiDim />
+  <AntiDim index = "1" />
 </template>
 
 <style scoped>
