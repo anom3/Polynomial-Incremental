@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <
+  <AntiDim />
 </template>
 
 <style scoped>
